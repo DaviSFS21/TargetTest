@@ -21,10 +21,10 @@ public class Answers {
                 x = y;
                 y = z;
             }
-            if ((num == 0) || (num == y)) { return "Pertence a sequencia de Fibonacci"; }
+            if ((num == 0) || (num == y)) { return num + "pertence a sequencia de Fibonacci"; }
         }
 
-        return "Nao pertence a sequencia de Fibonacci";
+        return num + "nao pertence a sequencia de Fibonacci";
     }
 
     public static String answer4() {
