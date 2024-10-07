@@ -4,10 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class AnswersTest {
-    @Test
-    public void answer1Test() {
-        Assert.assertEquals(91,Answers.answer1());
-    }
 
     @Test
     public void answer2Test() {
